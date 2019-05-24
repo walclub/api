@@ -19,3 +19,7 @@
 ```GUNICORN_BIND: string, ip and port to listen```
 
 ```FIREBASE_KEY: str```
+
+# basic deploy
+
+```python app.py```
