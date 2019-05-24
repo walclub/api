@@ -1,0 +1,7 @@
+flask
+pymongo
+jsonify
+gunicorn
+gevent
+json-logging-py
+requests
