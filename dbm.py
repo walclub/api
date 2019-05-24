@@ -24,7 +24,7 @@ class Connector_DBM:
                 {
                   "notification":{
                     "title":"WalClub - Tu Walmart",
-                    "body":"Has recibido una transferencia de " + str(data["amount"]),
+                    "body":"Has recibido una transferencia de " + "{0:,}".format(int(data["amount"])),
                     "sound":"default",
                     "click_action":"FCM_PLUGIN_ACTIVITY",
                     "icon":"fcm_push_icon"
